@@ -1207,12 +1207,40 @@ PrefabInstance:
       value: Tutorial fairy
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.npc.name
+      value: Tutorial fairy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.leftValue
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.leftChoice
       value: No!
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.rightValue
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.rightChoice
       value: Yes!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.choice.leftText
+      value: No!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.choice.rightText
+      value: Yes!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.choice.leftResponse
+      value: I'll explain it again
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.choice.rightResponse
+      value: You don't want my help well then suffer!
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.sentences.Array.size
@@ -1569,8 +1597,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1338125722}
     m_Modifications:
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.npc.name
+      value: Slim Shady
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.leftValue
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.leftChoice
       value: No!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.rightValue
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.rightChoice
