@@ -8,6 +8,8 @@ public class DialogueManager : MonoBehaviour
     public Transform nameText;
     public Transform dialogueText;
 
+    public GameObject dialogueBox;
+
     private Queue<string> sentences;
     // Start is called before the first frame update
     void Start()
@@ -17,6 +19,11 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+
+        if (dialogueBox != null)
+        {
+            dialogueBox.SetActive(true);
+        }
 
         nameText.GetComponent<TMPro.TextMeshProUGUI>().text = dialogue.name;
 
@@ -44,6 +51,9 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        Debug.Log("End of conversation");
+        if (dialogueBox != null)
+        {
+            dialogueBox.SetActive(false);
+        }
     }
 }
