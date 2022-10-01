@@ -7,6 +7,11 @@ public class Dialogue
 {
     public string name;
 
+    public string leftChoice;
+
+    public string rightChoice;
     [TextArea(3, 10)]
     public string[] sentences;
+
+    
 }
