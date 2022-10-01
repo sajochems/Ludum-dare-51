@@ -1158,6 +1158,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1338125722}
     m_Modifications:
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.npc
+      value: 
+      objectReference: {fileID: 11400000, guid: af785f4defae40c4d951ac7cc0190a15, type: 2}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.name
       value: Tutorial fairy
       objectReference: {fileID: 0}
@@ -1634,6 +1638,10 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 1338125722}
     m_Modifications:
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.npc
+      value: 
+      objectReference: {fileID: 11400000, guid: f5ce04ffa81defe429f6c0404fe6feb0, type: 2}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.npc.name
       value: Slim Shady

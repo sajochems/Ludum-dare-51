@@ -5,6 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class Dialogue
 {
+    [SerializeField]
     public NPC npc;
 
     public string leftChoice;

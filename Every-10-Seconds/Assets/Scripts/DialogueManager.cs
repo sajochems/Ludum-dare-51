@@ -53,7 +53,8 @@ public class DialogueManager : MonoBehaviour
 
     void rightClick()
     {
-        npc.SetRelationship(npc.GetRelationship() + dia.rightValue);
+
+        npc.Value += dia.rightValue;
         sentences.Enqueue(dia.rightResponse);
 
         flag = 1;
@@ -66,7 +67,7 @@ public class DialogueManager : MonoBehaviour
 
     void leftClick()
     {
-        npc.SetRelationship(npc.GetRelationship() + dia.leftValue);
+        npc.Value += dia.leftValue;
         sentences.Enqueue(dia.leftResponse);
 
         flag = 1;
@@ -117,7 +118,7 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueText.GetComponent<TMPro.TextMeshProUGUI>().text = " ";
             dialogueBox.SetActive(false);
-            Debug.Log("the npc's relationship is: " + npc.GetRelationship());
+            Debug.Log("the npc's relationship is: " + npc.Value);
         }
     }
 }

@@ -271,6 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menu: {fileID: 968229084}
+  cam: {fileID: 1500935647}
 --- !u!1 &881613625
 GameObject:
   m_ObjectHideFlags: 0
