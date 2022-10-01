@@ -9,9 +9,11 @@ public class Dialogue
 
     public string leftChoice;
     public int leftValue;
+    public string leftResponse;
 
     public string rightChoice;
     public int rightValue;
+    public string rightResponse;
 
     [TextArea(3, 10)]
     public string[] sentences;

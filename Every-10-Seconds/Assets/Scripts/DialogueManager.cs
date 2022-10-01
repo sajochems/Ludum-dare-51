@@ -18,6 +18,8 @@ public class DialogueManager : MonoBehaviour
     private Dialogue dia;
     private NPC npc;
 
+    private int flag;
+
 
     // Start is called before the first frame update
     void Start()
@@ -30,6 +32,7 @@ public class DialogueManager : MonoBehaviour
 
         dia = dialogue;
         npc = dialogue.npc;
+        flag = 0;
 
         if (dialogueBox != null)
         {
@@ -51,23 +54,45 @@ public class DialogueManager : MonoBehaviour
     void rightClick()
     {
         npc.SetRelationship(npc.GetRelationship() + dia.rightValue);
+        sentences.Enqueue(dia.rightResponse);
+
+        flag = 1;
+
+        rightChoice.SetActive(false);
+        rightChoice.GetComponent<Button>().onClick.RemoveListener(rightClick);
+        leftChoice.SetActive(false);
+        leftChoice.GetComponent<Button>().onClick.RemoveListener(leftClick);
     }
 
     void leftClick()
     {
         npc.SetRelationship(npc.GetRelationship() + dia.leftValue);
+        sentences.Enqueue(dia.leftResponse);
+
+        flag = 1;
+
+        rightChoice.SetActive(false);
+        rightChoice.GetComponent<Button>().onClick.RemoveListener(rightClick);
+        leftChoice.SetActive(false);
+        leftChoice.GetComponent<Button>().onClick.RemoveListener(leftClick);
     }
 
     public void DisplayNextSentence()
     {
+        StartCoroutine(DisplaySentence());
+    }
+
+    IEnumerator DisplaySentence()
+    {
+        yield return new WaitForSeconds(0.1f);
         if (sentences.Count == 0)
-        {
-                EndDialogue();
-                return;
+        {  
+            EndDialogue();
+            yield break;
         }
 
 
-        if (sentences.Count == 1)
+        if (sentences.Count == 1 && flag == 0)
         {
             rightChoice.GetComponentInChildren<TMPro.TextMeshProUGUI>().text = dia.rightChoice;
             rightChoice.GetComponent<Button>().onClick.AddListener(rightClick);
@@ -90,11 +115,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (dialogueBox != null)
         {
-
-            rightChoice.SetActive(false);
-            rightChoice.GetComponent<Button>().onClick.RemoveListener(rightClick);
-            leftChoice.SetActive(false);
-            leftChoice.GetComponent<Button>().onClick.RemoveListener(leftClick);
+            dialogueText.GetComponent<TMPro.TextMeshProUGUI>().text = " ";
             dialogueBox.SetActive(false);
             Debug.Log("the npc's relationship is: " + npc.GetRelationship());
         }
