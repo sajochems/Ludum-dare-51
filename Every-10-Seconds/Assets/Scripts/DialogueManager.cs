@@ -13,6 +13,9 @@ public class DialogueManager : MonoBehaviour
     public GameObject leftChoice;
     public GameObject rightChoice;
 
+    public SceneChanger sceneChanger;
+    public string nextScene;
+
     private Queue<string> sentences;
 
     private Dialogue dia;
@@ -120,5 +123,7 @@ public class DialogueManager : MonoBehaviour
             dialogueBox.SetActive(false);
             Debug.Log("the npc's relationship is: " + npc.Value);
         }
+
+        sceneChanger.NextScene(nextScene);
     }
 }

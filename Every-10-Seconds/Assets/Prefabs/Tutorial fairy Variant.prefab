@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2734844770056266987
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.npc
+      value: 
+      objectReference: {fileID: 11400000, guid: af785f4defae40c4d951ac7cc0190a15, type: 2}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.name
+      value: Tutorial fairy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.npc.name
+      value: Tutorial fairy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.leftValue
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.leftChoice
+      value: No!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.rightValue
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.rightChoice
+      value: Yes!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.leftResponse
+      value: Great I'll explain again I love explaining
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.rightResponse
+      value: What you dare dismiss me of my services!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.choice.leftText
+      value: No!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.choice.rightText
+      value: Yes!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.choice.leftResponse
+      value: I'll explain it again
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.choice.rightResponse
+      value: You don't want my help well then suffer!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Hi I am the tutorial fairy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: I am here to help you!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: YOU DON'T HAVE A CHOICE!!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: TeeHee let's get started
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: We all know that for finals we'll have to battle eachother
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: So it's important to make friends
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: Got it?
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290651, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290651, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d28589fb4072acd429d3f9c7c5cdbed1, type: 3}
+    - target: {fileID: 6153736906495290651, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290662, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290663, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_Name
+      value: Tutorial fairy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906803717890, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
