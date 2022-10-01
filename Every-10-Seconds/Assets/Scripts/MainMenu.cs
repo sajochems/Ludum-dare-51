@@ -7,6 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject menu;
     public GameObject cam;
+
     public void StartGame()
     {
         menu.SetActive(false);

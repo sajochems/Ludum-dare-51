@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7141dd53276236d4681e5ab8b036663e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - TutorialFairy: {fileID: 11400000, guid: af785f4defae40c4d951ac7cc0190a15, type: 2}
+  - SlimShady: {fileID: 11400000, guid: f5ce04ffa81defe429f6c0404fe6feb0, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
