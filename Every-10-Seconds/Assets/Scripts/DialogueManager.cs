@@ -18,6 +18,8 @@ public class DialogueManager : MonoBehaviour
     public SceneChanger sceneChanger;
     public string nextScene;
 
+    public GameObject[] todisable;
+
     private Queue<string> sentences;
 
     private Dialogue dia;
@@ -51,6 +53,11 @@ public class DialogueManager : MonoBehaviour
         foreach(string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
+        }
+
+        foreach (GameObject gameObject in todisable)
+        {
+            gameObject.SetActive(false);
         }
 
         DisplayNextSentence();
