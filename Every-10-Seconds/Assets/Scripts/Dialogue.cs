@@ -8,6 +8,8 @@ public class Dialogue
     [SerializeField]
     public NPC npc;
 
+    public Sprite image;
+
     [TextArea(3, 10)]
     public string leftChoice;
     public int leftValue;

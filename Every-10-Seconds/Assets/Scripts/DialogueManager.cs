@@ -13,8 +13,12 @@ public class DialogueManager : MonoBehaviour
     public GameObject leftChoice;
     public GameObject rightChoice;
 
+    public GameObject characterSprite;
+
     public SceneChanger sceneChanger;
     public string nextScene;
+
+    public GameObject[] todisable;
 
     private Queue<string> sentences;
 
@@ -40,6 +44,8 @@ public class DialogueManager : MonoBehaviour
             dialogueBox.SetActive(true);
         }
 
+        characterSprite.GetComponent<Image>().sprite = dia.image;
+
         nameText.GetComponent<TMPro.TextMeshProUGUI>().text = dialogue.npc.name;
 
         sentences.Clear();
@@ -47,6 +53,11 @@ public class DialogueManager : MonoBehaviour
         foreach(string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
+        }
+
+        foreach (GameObject gameObject in todisable)
+        {
+            gameObject.SetActive(false);
         }
 
         DisplayNextSentence();

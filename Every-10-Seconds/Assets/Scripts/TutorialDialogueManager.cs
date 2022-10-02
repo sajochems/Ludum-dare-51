@@ -16,6 +16,8 @@ public class TutorialDialogueManager : MonoBehaviour
     public SceneChanger sceneChanger;
     public string nextScene;
 
+    public GameObject[] todisable;
+
     private Queue<string> sentences;
 
     private Dialogue dia;
@@ -44,11 +46,16 @@ public class TutorialDialogueManager : MonoBehaviour
 
         nameText.GetComponent<TMPro.TextMeshProUGUI>().text = dialogue.npc.name;
 
-        /*sentences.Clear();*/
+        sentences.Clear();
 
         foreach (string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
+        }
+
+        foreach (GameObject gameObject in todisable)
+        {
+            gameObject.SetActive(false);
         }
 
         DisplayNextSentence();
