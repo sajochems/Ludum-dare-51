@@ -13,6 +13,8 @@ public class DialogueManager : MonoBehaviour
     public GameObject leftChoice;
     public GameObject rightChoice;
 
+    public GameObject characterSprite;
+
     public SceneChanger sceneChanger;
     public string nextScene;
 
@@ -39,6 +41,8 @@ public class DialogueManager : MonoBehaviour
         {
             dialogueBox.SetActive(true);
         }
+
+        characterSprite.GetComponent<Image>().sprite = dia.image;
 
         nameText.GetComponent<TMPro.TextMeshProUGUI>().text = dialogue.npc.name;
 
