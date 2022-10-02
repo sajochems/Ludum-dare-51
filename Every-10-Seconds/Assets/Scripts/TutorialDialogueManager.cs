@@ -44,7 +44,7 @@ public class TutorialDialogueManager : MonoBehaviour
 
         nameText.GetComponent<TMPro.TextMeshProUGUI>().text = dialogue.npc.name;
 
-        /*sentences.Clear();*/
+        sentences.Clear();
 
         foreach (string sentence in dialogue.sentences)
         {
