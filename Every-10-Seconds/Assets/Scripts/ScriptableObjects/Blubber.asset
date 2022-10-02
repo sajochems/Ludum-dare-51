@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Blubber
   m_EditorClassIdentifier: 
   _value: 0
+  _image: {fileID: 21300000, guid: c80dbdeb62fa2d147b7c9b7fcb5db3dc, type: 3}

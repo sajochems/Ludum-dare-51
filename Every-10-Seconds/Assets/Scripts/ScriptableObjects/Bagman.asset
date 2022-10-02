@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Bagman
   m_EditorClassIdentifier: 
   _value: 0
+  _image: {fileID: 21300000, guid: f280e3071ad25704fac7b40715ea937f, type: 3}
