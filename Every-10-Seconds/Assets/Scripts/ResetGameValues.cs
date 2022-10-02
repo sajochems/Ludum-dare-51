@@ -8,11 +8,15 @@ public class ResetGameValues : MonoBehaviour
     private NPC TutorialFairy;
 
     [SerializeField]
-    private NPC SlimShady;
+    private NPC MrSheep;
+
+    [SerializeField]
+    private NPC MrWorm;
 
     private void Start()
     {
         TutorialFairy.Value = 0;
-        SlimShady.Value = 0;
+        MrSheep.Value = 0;
+        MrWorm.Value = 0;
     }
 }

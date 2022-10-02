@@ -44,7 +44,7 @@ public class DialogueManager : MonoBehaviour
             dialogueBox.SetActive(true);
         }
 
-        characterSprite.GetComponent<Image>().sprite = dia.image;
+        characterSprite.GetComponent<Image>().sprite = npc.Image;
 
         nameText.GetComponent<TMPro.TextMeshProUGUI>().text = dialogue.npc.name;
 

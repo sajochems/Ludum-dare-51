@@ -677,7 +677,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TutorialFairy: {fileID: 11400000, guid: af785f4defae40c4d951ac7cc0190a15, type: 2}
-  SlimShady: {fileID: 11400000, guid: f5ce04ffa81defe429f6c0404fe6feb0, type: 2}
+  MrSheep: {fileID: 11400000, guid: f5ce04ffa81defe429f6c0404fe6feb0, type: 2}
+  MrWorm: {fileID: 11400000, guid: 1a69b04ae85ae96498aaefb07e2c5074, type: 2}
 --- !u!1 &1018569274
 GameObject:
   m_ObjectHideFlags: 0
