@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58188b78068aa304fab8d15217f9cecd, type: 3}
-  m_Name: Slim Shady
+  m_Name: MrSheep
   m_EditorClassIdentifier: 
   _value: 0

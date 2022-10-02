@@ -116,7 +116,6 @@ public class TutorialDialogueManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
-        Debug.Log(sentence);
         dialogueText.GetComponent<TMPro.TextMeshProUGUI>().text = sentence;
     }
 

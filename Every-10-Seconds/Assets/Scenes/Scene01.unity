@@ -1024,11 +1024,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290663, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: m_Name
-      value: Slim shady
+      value: MrSheep
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906803717890, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: m_text
-      value: Talk to slim shady
+      value: Talk to MrSheep
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

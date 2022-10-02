@@ -23,8 +23,6 @@ public class DialogueManager : MonoBehaviour
 
     private int flag;
 
-
-    // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
