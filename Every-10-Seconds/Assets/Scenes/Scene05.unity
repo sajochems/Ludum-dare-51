@@ -431,7 +431,7 @@ PrefabInstance:
       objectReference: {fileID: 1216545108}
     - target: {fileID: 5758090798304771117, guid: 1dfc67a1f353281408fa26a6c99a0806, type: 3}
       propertyPath: nextScene
-      value: Scene06
+      value: Scene07
       objectReference: {fileID: 0}
     - target: {fileID: 5758090798304771117, guid: 1dfc67a1f353281408fa26a6c99a0806, type: 3}
       propertyPath: leftChoice
