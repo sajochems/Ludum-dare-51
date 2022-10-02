@@ -1636,6 +1636,8 @@ MonoBehaviour:
   npcs:
   - {fileID: 11400000, guid: f5ce04ffa81defe429f6c0404fe6feb0, type: 2}
   - {fileID: 11400000, guid: 1a69b04ae85ae96498aaefb07e2c5074, type: 2}
+  - {fileID: 11400000, guid: 403fc12c1b84c8e438cbfc7294bf9459, type: 2}
+  - {fileID: 11400000, guid: 2297b3038b7b3d84c818a2899234df30, type: 2}
   leftCanvas: {fileID: 389004469}
   rightCanvas: {fileID: 201837628}
 --- !u!4 &1285337848
