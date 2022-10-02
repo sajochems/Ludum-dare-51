@@ -134,18 +134,26 @@ PrefabInstance:
     - target: {fileID: 5429758271142605300, guid: ea032519c9afa744e8c88f12f600d3c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 727026141}
+      objectReference: {fileID: 727026143}
     - target: {fileID: 5429758271142605300, guid: ea032519c9afa744e8c88f12f600d3c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DisplayNextSentence
       objectReference: {fileID: 0}
+    - target: {fileID: 5429758271142605300, guid: ea032519c9afa744e8c88f12f600d3c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TutorialDialogueManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5429758271169940416, guid: ea032519c9afa744e8c88f12f600d3c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 727026141}
+      objectReference: {fileID: 727026143}
     - target: {fileID: 5429758271169940416, guid: ea032519c9afa744e8c88f12f600d3c4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DisplayNextSentence
+      objectReference: {fileID: 0}
+    - target: {fileID: 5429758271169940416, guid: ea032519c9afa744e8c88f12f600d3c4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: TutorialDialogueManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5429758271343732641, guid: ea032519c9afa744e8c88f12f600d3c4, type: 3}
       propertyPath: m_Name
@@ -423,25 +431,34 @@ PrefabInstance:
       propertyPath: sceneChanger
       value: 
       objectReference: {fileID: 7548746247109336375}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5758090798304771117, guid: 1dfc67a1f353281408fa26a6c99a0806, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dfc67a1f353281408fa26a6c99a0806, type: 3}
---- !u!114 &727026141 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5758090798304771117, guid: 1dfc67a1f353281408fa26a6c99a0806, type: 3}
-  m_PrefabInstance: {fileID: 727026140}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 727026142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e649a0a49a2255548828463e19d463aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &727026142 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5758090798304771116, guid: 1dfc67a1f353281408fa26a6c99a0806, type: 3}
   m_PrefabInstance: {fileID: 727026140}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &727026143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727026142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc57ff1f9261a6049b74cf338a8344c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: {fileID: 213213591}
+  dialogueText: {fileID: 213213590}
+  dialogueBox: {fileID: 213213592}
+  leftChoice: {fileID: 213213588}
+  rightChoice: {fileID: 213213589}
+  sceneChanger: {fileID: 7548746247109336375}
+  nextScene: Scene01
 --- !u!1001 &890884798
 PrefabInstance:
   m_ObjectHideFlags: 0
