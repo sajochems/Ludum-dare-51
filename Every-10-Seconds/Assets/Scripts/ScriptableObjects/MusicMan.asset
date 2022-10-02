@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: MusicMan
   m_EditorClassIdentifier: 
   _value: 0
-  _image: {fileID: 0}
+  _image: {fileID: 21300000, guid: 0af3bfb5d1b600d41bd91eb443f9b144, type: 3}
