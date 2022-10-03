@@ -4,8 +4,21 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
+  - Bagman: {fileID: 11400000, guid: 9d5be2bd892206041a07953ddc560935, type: 2}
+  - Beer: {fileID: 11400000, guid: 2297b3038b7b3d84c818a2899234df30, type: 2}
+  - Blubber: {fileID: 11400000, guid: dfab5aa6d958faa419d63be5a50d9ea2, type: 2}
+  - Cactus: {fileID: 11400000, guid: 61c5bc71861488a43bb37213ebb3ddb2, type: 2}
+  - DemonBoy: {fileID: 11400000, guid: bdc7b30508ff071459faf023fecd9386, type: 2}
+  - Kharl: {fileID: 11400000, guid: ce500ef54b2568e4eb36d9d5fa6d4344, type: 2}
+  - Lucinda: {fileID: 11400000, guid: 517b781195f21284595cdc19b1f218d5, type: 2}
+  - Missy: {fileID: 11400000, guid: f01fbddadf49d4d4593c5ea975f5d231, type: 2}
+  - MrSheep: {fileID: 11400000, guid: f5ce04ffa81defe429f6c0404fe6feb0, type: 2}
+  - MrWorm: {fileID: 11400000, guid: 1a69b04ae85ae96498aaefb07e2c5074, type: 2}
+  - MusicMan: {fileID: 11400000, guid: 403fc12c1b84c8e438cbfc7294bf9459, type: 2}
+  - Mystery: {fileID: 11400000, guid: 3f987ea979f1b044c9ae66c6eb1d5d7a, type: 2}
+  - Ned: {fileID: 11400000, guid: a412c2301850fa84387cabb60ee9fc73, type: 2}
+  - Placeholder: {fileID: 11400000, guid: e32d25c7a5a69e54cbe7b17d4c335ab7, type: 2}
   - TutorialFairy: {fileID: 11400000, guid: af785f4defae40c4d951ac7cc0190a15, type: 2}
-  - SlimShady: {fileID: 11400000, guid: f5ce04ffa81defe429f6c0404fe6feb0, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

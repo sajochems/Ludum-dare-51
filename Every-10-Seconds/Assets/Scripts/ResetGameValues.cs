@@ -63,7 +63,7 @@ public class ResetGameValues : MonoBehaviour
         MrWorm.Value = 0;
         MusicMan.Value = 0;
         Mystery.Value = 0;
-        Ned.Value = 0;
+        Ned.Value = 1;
         Placeholder.Value = 0;
         TutorialFairy.Value = 0;
     }

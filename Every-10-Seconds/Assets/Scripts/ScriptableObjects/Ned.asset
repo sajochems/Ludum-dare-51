@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58188b78068aa304fab8d15217f9cecd, type: 3}
   m_Name: Ned
   m_EditorClassIdentifier: 
-  _value: 0
+  _value: 1
   _image: {fileID: 21300000, guid: 34cf72f828bed284bbbe6871b048e9ec, type: 3}

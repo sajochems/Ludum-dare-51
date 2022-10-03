@@ -208,7 +208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.leftChoice
-      value: yes
+      value: Yes!
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.rightValue
@@ -216,15 +216,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.rightChoice
-      value: no
+      value: No!
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.leftResponse
-      value: ...
+      value: Great I'm all ears
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.rightResponse
-      value: ...
+      value: Don't have to be so rude about it
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
@@ -236,7 +236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: Would you like to get some help
+      value: You look troubled would you like to talk about it?
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290651, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: m_Type
@@ -593,23 +593,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.leftChoice
-      value: d
+      value: Sorry!
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.rightValue
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.rightChoice
-      value: d
+      value: Sorry!
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.leftResponse
-      value: ...
+      value: Ugh!
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: dialogue.rightResponse
-      value: ...
+      value: Ugh
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Why would you talk to me
+      objectReference: {fileID: 0}
+    - target: {fileID: 6153736906495290649, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Do you want to copy me and do exactly as I did?
       objectReference: {fileID: 0}
     - target: {fileID: 6153736906495290651, guid: 55946d2676270414ab5b59a49ae81003, type: 3}
       propertyPath: m_Type
